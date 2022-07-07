@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Register Now!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <h2>Registration Form</h2>
+    <section>Please fill in your details correctly</section>
+    <br><hr>
+    <span id="sign">Already have an Account?<br>&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp<a href="login form.html"><i style="font-size:28px" class="fa">&#xf090;</i>&nbsp&nbspSign In</a></span>
+    <form class="register" action="submit.html" method="post">
+      <input type="text" size="35" height="50px;;" placeholder="First Name" name="name" value="" id="Firstname" required><br><br>
+        <input list="Gender" placeholder="Gender" size="35"><br><br>
+        <datalist id="Gender">
+          <option value="Male">
+          <option value="Female">
+          <option value="Prefer Not to say">
+        </datalist>
+        <input type="text" onfocus = "(this.type='date')" size="35" placeholder="Date" name="dob" value="" id="dob" required><br><br>
+        <input type="number" size="35" name="roll no"placeholder="All India Rank" value="" id="roll no"><br><br>
+
+        <input type="email" size="35" name="username" placeholder="Username"value="" id="username" required><br><br>
+        <input type="password" size="35" name="password" placeholder="Password" value="" id="password" required><br><br><br><br>
+        <a href="submit.html">
+          <div class="submit">
+        <input type="submit" name="" value="Submit">
+      </div>
+        </a>
+    </form>
+  </body>
+</html>
